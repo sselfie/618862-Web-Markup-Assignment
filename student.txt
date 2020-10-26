@@ -1,0 +1,4 @@
+Student name: Kevin Rincon Karl
+Student number: 618862
+Student class: IT1A
+URL student GitHub repository: https://github.com/sselfie/618862-Web-Markup-Assignment
