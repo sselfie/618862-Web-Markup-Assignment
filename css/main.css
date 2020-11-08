@@ -15,13 +15,11 @@ html{
     padding:5px;  
 }
 #header h1{
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 5vw;
     font-weight: bold;    
     margin: 0px;
 }
 #header h2{    
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 2vw;
     font-weight: normal;
     margin-top: 10px;
@@ -43,7 +41,6 @@ html{
   }
   
 .HamburgerMenu a {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     padding: 12px;
     font-weight: 700;
     color: #fff;
@@ -157,6 +154,7 @@ body {
     background-color: #efe2ba;
     padding: 0px;
     margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
   }
   /*Articles & 5 reasons*/
   .main {
@@ -178,13 +176,11 @@ body {
     width: 75%;
   }
   .left p, h2{
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     letter-spacing: 1px;
     word-spacing: 1px;
     text-align: left;
   }
   .left h6{
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: #F0F8FF;
     opacity: 50%;
     margin-bottom: 0px;
@@ -288,6 +284,10 @@ body {
     padding: 10px;
     background-color: #4052a1;
     justify-items: center;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
   }
   #photo1{
     border: 1px solid #d79922;
@@ -335,6 +335,7 @@ body {
   table, th, td {
     border: 1px solid black;
   }
+
   thead{
     font-size: 36px;
     background-color: #4052a1;
