@@ -367,6 +367,90 @@ body {
     border: 2px solid #d79922;
   }
   /*End of Photos next to table*/
+  /*Contact form*/  
+    .contactmain {
+      display: flex;
+      flex-direction: column;
+      font-size: 30px;
+      text-align: center;
+      align-items: flex-start;       
+    }
+    .textbox{
+      border: 1px solid #AAAAAA;
+      margin: 8px 0;
+      padding: 12px 18px;
+    
+  }
+  textarea {
+    height: 150px;
+    line-height: 150%;
+    resize:vertical;
+  }
+  .contactform{
+    background-color: #c5cbe3;
+    margin-top: 100px;
+    margin-left: 20px;
+    padding: 10px 10px;
+    flex: 80%;
+    border-radius: 25px;
+    border: 2px solid #d79922;
+    padding: 20px;
+    width: 75%;
+  }
+  .contactright {
+    background-color: #4052a1;
+    margin-top: 100px;
+    margin-right: 20px;
+    flex: 20%;
+    float: right;
+    margin-left: 10px;
+    border-radius: 25px;
+    border: 2px solid #d79922;
+    padding: 20px;
+  }
+  .contactright img{
+    width: 200px;
+    height: auto;
+    border: 2px solid #d79922;
+  }
+  form { 
+    max-width:620px; 
+    margin:20px auto;
+   }
+   legend{
+     font-size: 48px;
+   }
+  .textbox label{
+      display: block;
+      text-align: left;
+      color: #333;
+      text-transform: uppercase;
+      font-size: 14px;
+  }
+  .textbox input, .textbox textarea{
+      width: 100%;
+      border: none;
+      background: #f5f5f5;
+      outline: none;
+      font-size: 18px;
+      margin-top: 6px;
+  }
+  [type="submit"] {
+    width: 100%;
+    background:#d79922;
+    border-radius:5px;
+    border:0;
+    cursor:pointer;
+    color:white;
+    font-size:24px;
+    padding-top:10px;
+    padding-bottom:10px;
+    transition: all 0.3s;
+    margin-top:-4px;
+    font-weight:700;
+  }
+  [type="submit"]:hover { background:#4052a1; }
+  /*End of Contact form*/  
   /*footer*/
   .footer{
     display: flex;
@@ -537,6 +621,9 @@ body {
     .priority-3{
       display: none;
     }
+    .contactmain{
+      flex-direction: row;
+    }
     }
   
   @media screen and (min-width: 1200px) {
@@ -666,5 +753,8 @@ body {
   .photosright {
     margin-top: 100px;
   }
+.contactmain{
+  flex-direction: row;
+}
   }
   
